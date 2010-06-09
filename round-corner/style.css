@@ -1,0 +1,65 @@
+
+html{
+	height:100%; color:#000000; background-color: #FFFFFF; font-family:Arial; font-size: 14px;
+	border:0 none;
+}
+
+#container{
+	width:100%;
+}
+
+.topRect{
+	width:80%; margin:18 auto 0 auto; background-color:#f26522
+}
+
+.topRect .tl, .topRect .tr, .topRect .bl, .topRect .br{
+	background-repeat:no-repeat !important;
+}
+
+.topRect .tl{
+	background: transparent url(img/corner-tl.png) left top;
+}
+
+.topRect .tr{
+	background: transparent url(img/corner-tr.png) right top;
+}
+
+.topRect .bl{
+	background: transparent url(img/corner-bl.png) left bottom;
+}
+
+.topRect .br{
+	background: transparent url(img/corner-br.png) right bottom;
+}
+
+
+
+
+.gradTest{
+	width:80%; margin:40 auto 0 auto;
+	background: transparent url(img/grad-bkg.png) repeat-x;
+}
+
+.gradTest .tl, .gradTest .tr, .gradTest .bl, .gradTest .br{
+	background-repeat:no-repeat !important;
+}
+
+.gradTest .tl{
+	background: transparent url(img/grad-tl.png) left top;
+}
+
+.gradTest .tr{
+	background: transparent url(img/grad-tr.png) right top;
+}
+
+.gradTest .bl{
+	background: transparent url(img/grad-bl.png) left bottom;
+}
+
+.gradTest .br{
+	background: transparent url(img/grad-br.png) right bottom;
+}
+
+.content{
+	height:15px;
+}
